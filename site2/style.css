@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.navigation {
+    position: absolute;
+    width: 100%;
+    top: 50px;
+}
+.navigation li {
+    display: inline-block;
+}
+.logo-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+.call-btn {
+    width: 154px;
+    height: 34px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    background: none;
+    color: white;
+    margin-left: 27px;
+    cursor: pointer;
+}
+.nav-link {
+    margin-left: 50px;
+    cursor: pointer;
+}
+.nav-link:after {
+    display: block;
+    position: relative;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.21);
+    content: "";
+    transition: width 0.3s ease-out;
+}
+.nav-link:hover:after {
+    width: 100%;
+}
+.header-text {
+    position: absolute;
+    top: 243px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 600px;
+}
+.header-text h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 65px;
+}
+.header-text p {
+    width: 400px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 10px;
+}
+.header-text button {
+    width: 209px;
+    height: 55px;
+    background: #FF3465;
+    border-radius: 10px;
+    margin-top: 21px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+main {
+    margin-top: 87px;
+    text-align: center;
+    color: #273456;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 61px;
+}
+.card {
+    width: 277px;
+    height: 324px;
+    box-shadow: 0 17px 50px rgba(32, 40, 69, 0.14);
+    border-radius: 15px 15px 0 0;
+    text-align: start !important;
+    margin-left: 60px;
+}
+.card h3 {
+    position: relative;
+    margin-top: 23px;
+    margin-left: 33px;
+}
+.date {
+    position: relative;
+    color: red;
+    margin-left: 33px;
+}
+.text-box {
+    color: white;
+    position: relative;
+    display: inline;
+    left: 33px;
+    padding: 1px 13px;
+    background: #297FFF;
+    border-radius: 30px;
+    top: 17px;
+}
+.all-ways {
+    margin-top: 64px;
+    width: 247px;
+    height: 55px;
+    background: none;
+    border: 1px solid #FF3465;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FF3465;
+    cursor: pointer;
+}
+footer {
+    margin-top: 87px;
+    text-align: center;
+    color: #273456;
+}
+.about-us {
+    margin-top: 64px;
+}
+.about-us img {
+    vertical-align: top;
+}
+.about-us-text {
+    position: relative;
+    top: 20px;
+    left: 43px;
+    display: inline-block;
+    text-align: start;
+    width: 572px;
+}
+.about-us-text p {
+    position: relative;
+    color: #000000;
+    margin-top: 20px;
+}
+.contacts {
+    margin-top: 87px;
+    display: inline-block;
+}
+.contacts form {
+    margin-top: 72px;
+    width: 601px;
+    height: 534px;
+    box-shadow: 0 17px 50px rgba(32, 40, 69, 0.14);
+    border-radius: 20px;
+    text-align: center;
+}
+.contacts form h3 {
+    margin-top: 58px;
+    display: inline-block;
+    width: 367px;
+}
+.contacts form input {
+    padding-left: 26px;
+    width: 473px;
+    height: 59px;
+    border: 1px solid rgba(39, 52, 86, 0.26);
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.contacts form button {
+    margin-top: 20px;
+    width: 500px;
+    height: 65px;
+    background: #FF3465;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer
+font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+}
+.copyright {
+    margin-top: 122px;
+    margin-bottom: 50px;
+}
